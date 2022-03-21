@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>movies</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>movies</title>
 </head>
 <body>
-  
-  <header class="header">
-    <div class="container header__container">
-      <h2 class="header__heading">Movies catalog</h2>
-    </div>
-  </header>
-  
-  <main>
-    <section class="hero">
-      <div class="container hero__container">
-        
-        <div class="hero__left-card">
-          <form class="hero__form" action="/action_page.php" method="POST">
-            <input class="hero__form-input" type="text">
-            <button class="hero__form-btn" type="submit">search</button>
-          </form>                    
-          <h3 class="hero__inner-heading">Bookmarked movies</h3>
-          
-          <ul class="hero__list">
-            <li class="hero__list-item">
-              <h5 class="hero__list-heading">Avengers: Infinity War</h5>
-              <p class="hero__list-text">Remove</p>
-            </li>
-            <li class="hero__list-item">
-              <h5 class="hero__list-heading">Avengers: Infinity War</h5>
-              <p class="hero__list-text">Remove</p>
-            </li>
-          </ul>
+    
+    <header class="header">
+        <div class="container header__container">
+            <h2 class="header__heading">Movies catalog</h2>
         </div>
-        
-        <div class="hero__right-card">
-          <h3 class="hero__heading2">Search result: 39</h3>
-          <p class="hero__text">Use the form on the left to search for a movie</p>
-          <ul class="hero__list2">
-            <li class="">
-              <p>salom</p>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </section>
-  </main>
-  
-  <script src="./js/movies.js"></script>
-  <script src="./js/main.js"></script>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                
+                <div class="hero__left-card">
+                    <form class="hero__form" action="/action_page.php" method="dialog">
+                        <input class="hero__form-input" type="text" name="movie year" placeholder="enter movie year">
+                        <button class="hero__form-btn" type="submit">search</button>
+                    </form>                    
+                    <h3 class="hero__inner-heading">Bookmarked movies</h3>
+                    
+                    <ul class="hero__list">
+                        <li class="hero__list-item">
+                            <h5 class="hero__list-heading">Avengers: Infinity War</h5>
+                            <p class="hero__list-text">Remove</p>
+                        </li>
+                        <li class="hero__list-item">
+                            <h5 class="hero__list-heading">Avengers: Infinity War</h5>
+                            <p class="hero__list-text">Remove</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="hero__right-card">
+                    <h3 class="hero__heading2">Search result: 39</h3>
+                    <p class="hero__text">Use the form on the left to search for a movie</p>
+                    <ul class="hero__list2">
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/movies.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
